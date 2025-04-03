@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class MathematicsUnitsComponent {
   unites:string[]=['الوحده الاولى','الوحده الثانيه','الوحده الثالثه','الوحده الرابعه'];
-  unitOneLessonsLink:string[]=['/fourth-grade/first-term/mathematics/mathematics-content/unite-one/unit-one-lessons'];
+  unitOneLessonsLink:string[]=['/fourth-grade/first-term/mathematics/mathematics-content/unit-one/unit-one-lessons'];
 }

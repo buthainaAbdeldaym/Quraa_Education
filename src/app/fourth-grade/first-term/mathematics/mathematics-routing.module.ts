@@ -5,8 +5,8 @@ import { MathematicsUnitsComponent } from './mathematics-content/mathematics-uni
 
 const routes: Routes = [
   {path:'mathematics-content',component:MathematicsContentComponent,children:[
-    {path:'Mathematics-units',component:MathematicsUnitsComponent},
-    {path:'unite-one',loadChildren: () => import('./mathematics-content/unit-one/unit-one.module').then(m => m.UnitOneModule)}
+    {path:'mathematics-units',component:MathematicsUnitsComponent},
+    {path:'unit-one',loadChildren: () => import('./mathematics-content/unit-one/unit-one.module').then(m => m.UnitOneModule)}
   ]}
 ];
 
