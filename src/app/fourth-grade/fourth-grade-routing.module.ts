@@ -6,7 +6,8 @@ import { FirstTermSubjectsComponent } from './first-term/first-term-subjects/fir
 const routes: Routes = [
   {path:'first-term',component:FirstTermComponent,children:[
     {path:'first-term-subjects',component:FirstTermSubjectsComponent},
-    {path:'arabic-language',loadChildren: () => import('./first-term/arabic-language/arabic-language.module').then(m => m.ArabicLanguageModule)}
+    {path:'arabic-language',loadChildren: () => import('./first-term/arabic-language/arabic-language.module').then(m => m.ArabicLanguageModule)},
+    {path:'social-studies',loadChildren: () => import('./first-term/social-studies/social-studies.module').then(m => m.SocialStudiesModule)}
   ]}
 ];
 

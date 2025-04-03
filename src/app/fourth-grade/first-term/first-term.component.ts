@@ -16,5 +16,5 @@ export class FirstTermComponent implements OnInit{
     // console.log(segments);
 
   }
-  subjects:string[]=['اللغة العربيه','اللغة الإنجليزية','الرياضيات','التربيه الإسلاميه'];
+  // subjects:string[]=['اللغة العربيه','اللغة الإنجليزية','الرياضيات','التربيه الإسلاميه'];
 }
