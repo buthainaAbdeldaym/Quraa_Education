@@ -7,7 +7,8 @@ const routes: Routes = [
   {path:'first-term',component:FirstTermComponent,children:[
     {path:'first-term-subjects',component:FirstTermSubjectsComponent},
     {path:'arabic-language',loadChildren: () => import('./first-term/arabic-language/arabic-language.module').then(m => m.ArabicLanguageModule)},
-    {path:'social-studies',loadChildren: () => import('./first-term/social-studies/social-studies.module').then(m => m.SocialStudiesModule)}
+    {path:'social-studies',loadChildren: () => import('./first-term/social-studies/social-studies.module').then(m => m.SocialStudiesModule)},
+    {path:'mathematics',loadChildren: () => import('./first-term/mathematics/mathematics.module').then(m => m.MathematicsModule)}
   ]}
 ];
 
