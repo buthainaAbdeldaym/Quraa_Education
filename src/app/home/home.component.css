@@ -1,0 +1,16 @@
+.home{
+  min-height: 100vh;
+  background-color: #DB741D;
+  background-image: url("../../assets/images/slider1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.home .content{
+  color: #fff;
+}
+.home .content p{
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 20px;
+}

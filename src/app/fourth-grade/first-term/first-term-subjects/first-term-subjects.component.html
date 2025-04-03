@@ -1,0 +1,13 @@
+<section class="subjects d-flex justify-content-center align-items-center">
+  <div class="subject container-fluid px-3 py-5 p-md-5">
+    <div class="row gy-4">
+      <div class="col-md-4 col-sm-6" *ngFor="let subject of subjects;index as i">
+        <a [routerLink]="subjectLink[i]" class="text-decoration-none text-black">
+          <div class="item d-flex justify-content-center align-items-center main-shadow">
+            <p class="f-family-b h4 text-center px-2">{{subject}}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

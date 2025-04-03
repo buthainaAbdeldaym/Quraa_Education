@@ -1,0 +1,13 @@
+<section class="units d-flex justify-content-center align-items-center">
+  <div class="container container-fluid px-3 py-5 p-md-5">
+    <div class="row gy-4 gy-md-0">
+      <div class="col-md-3" *ngFor="let unit of unites;index as i">
+        <a [routerLink]="unitOneLessonsLink[i]" class="text-decoration-none text-black">
+          <div class="item d-flex justify-content-center align-items-center main-shadow">
+            <p class="f-family-b h4 text-center px-2">{{unit}}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

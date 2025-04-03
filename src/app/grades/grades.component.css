@@ -1,0 +1,25 @@
+section.grades{
+  /* background-color: #78746C; */
+}
+section .grade .row .col-sm-6 .item{
+  height: 200px;
+  background-color: #DB741D;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+section .grade .row .col-sm-6 .item .layer{
+  background-color: rgba(255, 255, 255, 0.83);
+  border-radius: 5px;
+  transform: translateY(100%);
+  transition: all 0.5s;
+}
+section .grade .row .col-sm-6 .item:hover .layer{
+  transform: translateY(0);
+}
+section .grade .row .col-sm-6 .item .layer a{
+  font-size: 17px;
+}
+section .grade .row .col-sm-6 .item .layer a:hover{
+  color: blue;
+}

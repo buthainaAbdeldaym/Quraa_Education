@@ -1,0 +1,23 @@
+<section class="header d-flex align-items-center justify-content-center">
+  <nav class="navbar navbar-expand-lg position-absolute top-0 start-0 end-0 px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white f-family-b" href="#">
+        <img src="assets/images/icon-text.png" alt="logo" width="40" class="ms-3">
+        قراء للمناهج الدراسيه
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-white d-inline-block mx-4 f-family-l" aria-current="page" href="#">الرئيسية</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <p class="f-family-b text-white pt-5 fs-2">
+      <span *ngFor="let section of sections;let i=index">{{i>0?'/':''}} {{section}}</span>
+    </p>
+  </div>
+</section>

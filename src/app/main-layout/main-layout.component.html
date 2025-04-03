@@ -1,0 +1,31 @@
+<!-- <app-navbar></app-navbar> -->
+<section>
+  <nav class="navbar navbar-expand-lg position-absolute top-0 start-0 end-0 px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white f-family-b" href="#">
+        <img src="assets/images/icon-text.png" alt="logo" width="40" class="ms-3">
+        قراء للمناهج الدراسيه
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-white d-inline-block mx-4 f-family-l" aria-current="page" href="#home">الرئيسية</a>
+          <a class="nav-link text-white d-inline-block mx-4 f-family-l" href="#about">من نحن</a>
+          <a class="nav-link text-white d-inline-block mx-4 f-family-l" href="#grades">الصفوف الدراسيه</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home">
+    <app-home></app-home>
+  </div>
+  <div id="about">
+    <app-about id="about"></app-about>
+  </div>
+  <div id="grades">
+    <app-grades id="grades"></app-grades>
+  </div>
+</section>

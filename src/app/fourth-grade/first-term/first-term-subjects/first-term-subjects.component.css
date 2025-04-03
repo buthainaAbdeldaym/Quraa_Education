@@ -1,0 +1,13 @@
+section.subjects{
+  height: 80vh;
+  background-color: #0f0f0f;
+}
+section.subjects .subject .row .col-sm-6 a .item{
+  height: 200px;
+  background-color: #DB741D;
+  border-radius: 5px;
+  cursor: pointer;
+}
+section.subjects .subject .row .col-sm-6 a .item p{
+  line-height: 35px;
+}

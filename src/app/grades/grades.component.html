@@ -1,0 +1,17 @@
+<section class="grades">
+  <div class="grade container-fluid px-3 py-5 p-md-5">
+    <div class="row gy-4">
+      <div class="col-md-4 col-sm-6" *ngFor="let grade of grades;index as i">
+        <div class="item d-flex justify-content-center align-items-center position-relative main-shadow">
+          <p class="f-family-b h4 text-center px-2">{{grade}}</p>
+          <div class="layer position-absolute end-0 start-0 top-0 bottom-0 d-flex justify-content-center align-items-center">
+            <a [routerLink]="links[i]" class="f-family-b second-color text-decoration-none d-inline-block px-2">الترم الاول</a>
+            <span>/</span>
+            <a href="#" class="f-family-b second-color text-decoration-none d-inline-block px-2">الترم الثانى</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

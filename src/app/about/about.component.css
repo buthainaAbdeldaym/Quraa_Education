@@ -1,0 +1,9 @@
+section{
+  background-color: #eee;
+}
+.about-us .row .col-md-6 .img img{
+  height: 500px;
+}
+.about-us .row .col-md-6 .content p{
+  line-height: 30px;
+}
