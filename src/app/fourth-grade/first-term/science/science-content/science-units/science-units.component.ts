@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./science-units.component.css']
 })
 export class ScienceUnitsComponent {
-
+  unites:string[]=['الوحده الاولى','الوحده الثانيه','الوحده الثالثه','الوحده الرابعه'];
+  unitOneLessonsLink:string[]=['/fourth-grade/first-term/science/science-content/unit-one/unit-one-lessons'];
 }

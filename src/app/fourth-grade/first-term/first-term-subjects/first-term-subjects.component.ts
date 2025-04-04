@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./first-term-subjects.component.css']
 })
 export class FirstTermSubjectsComponent {
-  subjects:string[]=['اللغة العربيه','الدرسات الاجتماعية','الرياضيات','التربية الدينية الاسلامية','العلوم','الكمبيوتر وتكنولوجيا المعلومات'];
+  subjects:string[]=['اللغة العربيه','الدرسات الاجتماعية','الرياضيات','العلوم','التربية الدينية الاسلامية','الكمبيوتر وتكنولوجيا المعلومات'];
   subjectLink:string[]=['/fourth-grade/first-term/arabic-language/arabic-content/arabic-units',
   '/fourth-grade/first-term/social-studies/social-studies-content/social-studies-units',
-  '/fourth-grade/first-term/mathematics/mathematics-content/mathematics-units'
+  '/fourth-grade/first-term/mathematics/mathematics-content/mathematics-units',
+  '/fourth-grade/first-term/science/science-content/science-units',
   ];
 }

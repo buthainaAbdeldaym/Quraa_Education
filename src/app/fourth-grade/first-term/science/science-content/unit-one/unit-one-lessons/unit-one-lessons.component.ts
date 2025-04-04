@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./unit-one-lessons.component.css']
 })
 export class UnitOneLessonsComponent {
-
+  lessons:string[]=['الدرس الاول','الدرس الثانى','الدرس الثالث','الدرس الرابع'];
+  LessonsLink:string[]=['/fourth-grade/first-term/science/science-content/unit-one/lesson-one'];
 }
