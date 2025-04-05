@@ -11,5 +11,7 @@ export class FirstTermSubjectsComponent {
   '/fourth-grade/first-term/social-studies/social-studies-content/social-studies-units',
   '/fourth-grade/first-term/mathematics/mathematics-content/mathematics-units',
   '/fourth-grade/first-term/science/science-content/science-units',
+  '/fourth-grade/first-term/islamic-studies/islamic-studies-content/islamic-studies-units',
+  '/fourth-grade/first-term/ict/ict-content/ict-units'
   ];
 }
