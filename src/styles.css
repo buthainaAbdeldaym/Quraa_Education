@@ -18,3 +18,19 @@
 .main-shadow{
   box-shadow: 0px 0px 10px 0px rgba(219, 114, 29, 0.747);
 }
+.box-content{
+  height: 80vh;
+  background-color: #0f0f0f;
+}
+.box-item{
+  height: 150px;
+  background-color: #DB741D;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.img-padding p{
+  padding-top: 20px;
+}
+section.lessone-one *{
+  text-align: center;
+}
