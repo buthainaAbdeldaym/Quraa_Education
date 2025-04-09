@@ -1,23 +1,52 @@
 <!-- <app-navbar></app-navbar> -->
 <section>
-  <nav class="navbar navbar-expand-lg position-absolute top-0 start-0 end-0 px-4">
+  <!-- <nav class="navbar navbar-expand-lg position-absolute top-0 start-0 end-0 px-4">
     <div class="container-fluid">
       <a class="navbar-brand text-white f-family-b" href="#">
         <img src="assets/images/icon-text.png" alt="logo" width="40" class="ms-3">
         قراء للمناهج الدراسيه
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler px-0 bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active text-white d-inline-block mx-4 f-family-l" aria-current="page" href="#home">الرئيسية</a>
-          <a class="nav-link text-white d-inline-block mx-4 f-family-l" href="#about">من نحن</a>
-          <a class="nav-link text-white d-inline-block mx-4 f-family-l" href="#grades">الصفوف الدراسيه</a>
+          <a class="nav-link active text-white d-inline-block mx-lg-4 f-family-l" aria-current="page" href="#home">الرئيسية</a>
+          <a class="nav-link text-white d-inline-block mx-lg-4 f-family-l" href="#about">من نحن</a>
+          <a class="nav-link text-white d-inline-block mx--lg-4 f-family-l" href="#grades">الصفوف الدراسيه</a>
         </div>
       </div>
     </div>
+  </nav> -->
+  <nav class="navbar navbar-expand-lg position-absolute top-0 start-0 end-0 px-lg-4">
+    <div class="container-fluid px-1 px-md-2">
+        <a class="navbar-brand text-white f-family-b d-flex align-items-center mx-0 mx-md-2" href="#">
+            <img src="assets/images/icon-text.png" alt="logo" width="40" class="d-inline-block align-text-top">
+            <span class="ms-3">قراء للمناهج الدراسيه</span>
+        </a>
+
+        <button class="navbar-toggler px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+            <i class="fas fa-bars fa-lg text-white"></i>
+        </button>
+
+        <!-- المحتوى القابل للطي -->
+        <div class="collapse navbar-collapse px-2 px-lg-0" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active text-white mx-lg-3 f-family-l" aria-current="page" href="#home">الرئيسية</a>
+                <a class="nav-link text-white mx-lg-3 f-family-l" href="#about">من نحن</a>
+                <a class="nav-link text-white mx-lg-3 f-family-l" href="#grades">الصفوف الدراسيه</a>
+            </div>
+        </div>
+    </div>
   </nav>
+
+<!-- مثال لمحتوى الصفحة لترى تأثير position-absolute -->
+<!-- <div style="height: 200vh; padding-top: 80px; background-color: #f8f9fa;">
+    أضفنا padding-top لضمان عدم تغطية المحتوى بواسطة الـ Navbar
+    <h1>محتوى الصفحة هنا</h1>
+    <p>...</p>
+</div> -->
 
   <div id="home">
     <app-home></app-home>

@@ -1,10 +1,1 @@
-section.units{
-  height: 80vh;
-  background-color: #0f0f0f;
-}
-section.units .container .row .col-md-3 .item{
-  height: 150px;
-  background-color: #DB741D;
-  border-radius: 5px;
-  cursor: pointer;
-}
+

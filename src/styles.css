@@ -31,6 +31,17 @@
 .img-padding p{
   padding-top: 20px;
 }
+.img-padding p img{
+  width: 100%;
+}
 section.lessone-one *{
   text-align: center;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+@media screen and (max-width:767px) {
+  .box-content{
+    height: auto;
+  }
 }

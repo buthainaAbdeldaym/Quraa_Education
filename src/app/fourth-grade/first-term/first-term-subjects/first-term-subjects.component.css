@@ -11,3 +11,8 @@ section.subjects .subject .row .col-sm-6 a .item{
 section.subjects .subject .row .col-sm-6 a .item p{
   line-height: 35px;
 }
+@media screen and (max-width:767px) {
+  section.subjects{
+    height: auto;
+  }
+}

@@ -14,3 +14,19 @@
   font-weight: 500;
   font-size: 20px;
 }
+@media screen and (max-width:575px){
+  .home .content{
+    width: 100% !important;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-right: 0px !important;
+  }
+}
+@media screen and (max-width:400px){
+  .home .content{
+    padding-left: 0px !important;
+  }
+  .home .content p{
+    font-size: 15px;
+  }
+}
