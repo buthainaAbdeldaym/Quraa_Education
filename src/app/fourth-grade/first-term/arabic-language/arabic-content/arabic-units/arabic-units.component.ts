@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class ArabicUnitsComponent {
   unites:string[]=['الوحده الاولى','الوحده الثانيه','الوحده الثالثه','الوحده الرابعه'];
-  unitOneLessonsLink:string[]=['/fourth-grade/first-term/arabic-language/arabic-content/unite-one/unit-one-lessons'];
+  unitOneLessonsLink:string[]=['/fourth-grade/first-term/arabic-language/arabic-content/unit-one/unit-one-lessons'];
 }

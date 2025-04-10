@@ -6,7 +6,7 @@ import { SocialStudiesUnitsComponent } from './social-studies-content/social-stu
 const routes: Routes = [
   {path:'social-studies-content',component:SocialStudiesContentComponent,children:[
       {path:'social-studies-units',component:SocialStudiesUnitsComponent},
-      {path:'unite-one',loadChildren: () => import('./social-studies-content/unit-one/unit-one.module').then(m => m.UnitOneModule)}
+      {path:'unit-one',loadChildren: () => import('./social-studies-content/unit-one/unit-one.module').then(m => m.UnitOneModule)}
   ]}
 ];
 

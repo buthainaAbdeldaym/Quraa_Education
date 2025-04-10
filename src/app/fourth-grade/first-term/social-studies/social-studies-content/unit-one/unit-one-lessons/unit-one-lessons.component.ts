@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class UnitOneLessonsComponent {
   lessons:string[]=['الدرس الاول','الدرس الثانى','الدرس الثالث','الدرس الرابع'];
-  LessonsLink:string[]=['/fourth-grade/first-term/social-studies/social-studies-content/unite-one/lesson-one'];
+  LessonsLink:string[]=['/fourth-grade/first-term/social-studies/social-studies-content/unit-one/lesson-one'];
 }

@@ -6,7 +6,7 @@ import { ArabicUnitsComponent } from './arabic-content/arabic-units/arabic-units
 const routes: Routes = [
   {path:'arabic-content',component:ArabicContentComponent,children:[
     {path:'arabic-units',component:ArabicUnitsComponent},
-    {path:'unite-one',loadChildren: () => import('./arabic-content/unit-one/unit-one.module').then(m => m.UnitOneModule)}
+    {path:'unit-one',loadChildren: () => import('./arabic-content/unit-one/unit-one.module').then(m => m.UnitOneModule)}
   ]}
 ];
 
